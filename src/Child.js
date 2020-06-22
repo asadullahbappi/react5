@@ -6,7 +6,7 @@ const Child = () => {
     return (
         <div>
             <h2>
-                This is first Child using counterContext
+                This is first Child using counterContext by asad
             </h2>
     <h4>Counter Value is: {counterValue[0]}</h4>
     <button onClick={()=> {counterValue[1](++counterValue[0])}}>
